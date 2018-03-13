@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.edu.ittepic.a2_1_1_persistencia_basica.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL: "
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/texto1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEXO: "
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sexo">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Masculino"
+            android:checked="true"
+            android:id="@+id/hombre"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Femenino"
+            android:id="@+id/mujer"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOBBIES: "
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correr"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/correr"
+        android:checked="true"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dormir"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/dormir"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jugar"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/jugar"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ZODIACO "
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zodiaco"
+        android:layout_marginLeft="20dp"
+        android:entries="@array/Zodiaco"
+        >
+    </Spinner>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/guardar"
+            android:onClick="guardarInf"
+            android:text="Guardar"/>
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/mostrar"
+            android:layout_height="wrap_content"
+            android:onClick="mostrar"
+
+            android:text="Mostrar"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

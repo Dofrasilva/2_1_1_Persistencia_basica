@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">2_1_1_Persistencia_basica</string>
+    <string-array name="Zodiaco">
+        <item>Aries</item>
+        <item>Tauro </item>
+        <item>Géminis </item>
+        <item>Cáncer</item>
+        <item> Leo </item>
+        <item>Virgo</item>
+        <item>Libra </item>
+        <item>Escorpio</item>
+        <item> Sagitario </item>
+        <item>Capricornio</item>
+        <item> Acuario</item>
+        <item> Piscis</item>
+    </string-array>
+</resources>
